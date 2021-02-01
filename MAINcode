@@ -1,0 +1,9 @@
+
+# okay...lets learn python 
+import math
+
+print("This program will find the area of a circle.")
+radius = input("Please input the radius of the circle: ")
+area = 3.14159*pow(radius,2)
+print("The area of the circle is: ")
+print(area)
