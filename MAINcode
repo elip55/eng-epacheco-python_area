@@ -1,9 +1,23 @@
-
-# okay...lets learn python 
+# area with functions
 import math
 
-print("This program will find the area of a circle.")
-radius = input("Please input the radius of the circle: ")
-area = 3.14159*pow(radius,2)
-print("The area of the circle is: ")
-print(area)
+def explain ():     # Explain what the program is going to do 
+    print("Hello.")
+    print("This program will tell you the area of a circle")
+
+
+def calculate(c):   # Function will calculate the area here
+    area = 3.14159*pow(c,2)
+    print("The are of the circle is: ")
+    print(area)
+
+def calculate_s(s):
+    area = 3.14159*4*pow(s,2)
+    print("The surface area of the sphere is: ")
+    print(area)
+
+explain()
+c = input("Input the radius of the circle: ")
+s = input("Input the radius of the sphere: ")
+calculate(c)
+calculate_s(s)
