@@ -1,4 +1,5 @@
 # area with functions
+
 import math
 
 def explain ():     # Explain what the program is going to do 
@@ -11,13 +12,25 @@ def calculate(c):   # Function will calculate the area here
     print("The are of the circle is: ")
     print(area)
 
-def calculate_s(s):
+def calculate_t(b,h):
+    area = 0.5*b*h 
+    print("The area of the triangle is: ")
+    print(area)
+
+def calculate_s(s): # This function will calculate the area of the sphere 
     area = 3.14159*4*pow(s,2)
+    volume = 3.14159*1.3333333*pow(s,3)
     print("The surface area of the sphere is: ")
     print(area)
+    print("The volume of the sphere is: ")
+    print(volume)
+
 
 explain()
 c = input("Input the radius of the circle: ")
 s = input("Input the radius of the sphere: ")
+b = input("Input the base of the triangle: ")
+h = input("Inpu the height of the triangle: ")
 calculate(c)
 calculate_s(s)
+calculate_t(b,h)
