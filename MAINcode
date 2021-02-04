@@ -27,10 +27,10 @@ def calculate_s(s): # This function will calculate the area of the sphere
 
 
 explain()
-c = input("Input the radius of the circle: ")
-s = input("Input the radius of the sphere: ")
-b = input("Input the base of the triangle: ")
-h = input("Inpu the height of the triangle: ")
+c = int(input("Input the radius of the circle: "))
+s = int(input("Input the radius of the sphere: "))
+b = int(input("Input the base of the triangle: "))
+h = int(input("Input the height of the triangle: "))
 calculate(c)
 calculate_s(s)
 calculate_t(b,h)
