@@ -15,7 +15,7 @@ def calculate_t(b,h):  # Function will calculate the are of triangle
     area = round(0.5*b*h, 3)
     print(f"The area of the triangle is: {area}")
 
-def calculate_s(s): # This function will calculate the area and volume of the sphere 
+def calculate_s(s): # This function will calculate the surface area and volume of the sphere 
     area = round(3.14159*4*pow(s,2), 3)
     volume = round(3.14159*1.3333333*pow(s,3), 3)
     print(f"The surface area of the sphere is: {area}")
