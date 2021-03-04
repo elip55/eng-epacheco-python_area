@@ -9,7 +9,7 @@ def explain ():     # Explain what the program is going to do
 
 def calculate(c):   # Function will calculate the area of circle 
     area = round(3.14159*pow(c,2), 3)
-    print(f"The are of the circle is: {area}")
+    print(f"The area of the circle is: {area}")
 
 def calculate_t(b,h):  # Function will calculate the are of triangle 
     area = round(0.5*b*h, 3)
@@ -29,6 +29,7 @@ c = float(input("Input the radius of the circle: "))
 s = float(input("Input the radius of the sphere: "))
 b = float(input("Input the base of the triangle: "))
 h = float(input("Input the height of the triangle: "))
+print("--------------------------------------------")
 calculate(c)
 calculate_s(s)
 calculate_t(b,h)
