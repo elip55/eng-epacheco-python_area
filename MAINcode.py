@@ -1,8 +1,4 @@
-# area with functions
-
-from src.calculations import calculate_c, calculate_s, calculate_t
-
-print("Hello, this is a simple program that will calculate areas of certain objects.")
-calculate_c()
-calculate_s()
-calculate_t()
+# area with functions 
+# This is the main funcion outside of the module 
+from src.intro import intro
+intro()
