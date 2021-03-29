@@ -12,7 +12,7 @@ def circle_area():
     
     if answr == 'y' or answr == ' y':
         area_sphere = 4*pi*pow(radius, 2)
-        volume_sphere = 1.3333*pi*pow(radius,3)
+        volume_sphere = (4/3)*pi*pow(radius,3)
 
         print(f"The surface area of the sphere is: {area_sphere}")
         print(f"The volume of the sphere is: {volume_sphere}")
